@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8oGsT94HfdbrmN2IFENFiavk3gy2wkjOV7BhGuzyOgk=",
+  "Hash": "bbEYD+9H44bGpYbi2ZJh073xZ4Cj8bh5BSOMvAUOvKs=",
   "Source": "SistemaInventario",
   "BasePath": "_content/SistemaInventario",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\bodega.js"
+    },
+    {
+      "Identity": "D:\\Trabajo\\Proyectos\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\categoria.js",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Trabajo\\Proyectos\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "js/categoria.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\categoria.js"
     },
     {
       "Identity": "D:\\Trabajo\\Proyectos\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\site.js",
