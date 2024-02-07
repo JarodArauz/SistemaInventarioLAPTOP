@@ -6,6 +6,20 @@ $(document).ready(function () {
 
 function loadDataTable() {
     datatable = $('#tblDatos').DataTable({
+        "language": {
+            "lengthMenu": "Mostrar _MENU_ Registros Por Pagina",
+            "zeroRecords": "Ningun Registro",
+            "info": "Mostrar pagina _PAGE_ de _PAGES_",
+            "infoEmpty": "No hay registros",
+            "infoFiltered": "(filtrado de _MAX_ registros totales)",
+            "search": "Buscar",
+            "paginate": {
+                "first": "Primero",
+                "last": "Último",
+                "next": "Siguiente",
+                "previous": "Anterior"
+            }
+        },
         "ajax": {
             "url":"/Admin/Categoria/ObtenerTodos"
         },

@@ -21,7 +21,7 @@ function loadDataTable() {
             }
         },
         "ajax": {
-            "url":"/Admin/Bodega/ObtenerTodos"
+            "url":"/Admin/Marca/ObtenerTodos"
         },
         "columns": [
             { "data": "nombre", "width": "20%" },
@@ -41,10 +41,10 @@ function loadDataTable() {
                 "render": function (data) {
                     return`
                             <div class="text-center">
-                                <a href="/Admin/Bodega/Upsert/${data}" class="btn btn-success text-while" style="cursor:pointer">
+                                <a href="/Admin/Marca/Upsert/${data}" class="btn btn-success text-while" style="cursor:pointer">
                                     <i class="bi bi-pencil-square"></i>
                                 </a>
-                                 <a onclick=Delete("/Admin/Bodega/Delete/${data}") class="btn btn-danger text-while" style="cursor:pointer">
+                                 <a onclick=Delete("/Admin/Marca/Delete/${data}") class="btn btn-danger text-while" style="cursor:pointer">
                                     <i class="bi bi-trash3-fill"></i>
                                  </a>
                             </div >         
@@ -62,7 +62,7 @@ function loadDataTable() {
 
 function Delete(url) {
     swal({
-        title: "Esta seguro de Eliminar la bodega?",
+        title: "Esta seguro de Eliminar la Marca?",
         text: "Este Registro no se podra recuperar",
         icon: "warning",
         buttons: true,
