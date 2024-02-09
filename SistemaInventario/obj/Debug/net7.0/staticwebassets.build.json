@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pszRL0ax4VFHDl2/+DFvrBC4ArnFbulxQvGaAcyIU7k=",
+  "Hash": "G6HVsWAaV2jnaSncG/tVQ9jGQv5V5vUAE9WUsW00RbI=",
   "Source": "SistemaInventario",
   "BasePath": "_content/SistemaInventario",
   "Mode": "Default",
@@ -1105,6 +1105,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\Trabajo\\Proyectos\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\producto\\7ae46b83-c75f-4384-b25e-d7c97fc669bc.JPG",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Trabajo\\Proyectos\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "Imagenes/producto/7ae46b83-c75f-4384-b25e-d7c97fc669bc.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagenes\\producto\\7ae46b83-c75f-4384-b25e-d7c97fc669bc.JPG"
+    },
+    {
       "Identity": "D:\\Trabajo\\Proyectos\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\bodega.js",
       "SourceId": "SistemaInventario",
       "SourceType": "Discovered",
@@ -1154,6 +1171,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\marca.js"
+    },
+    {
+      "Identity": "D:\\Trabajo\\Proyectos\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\producto.js",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Trabajo\\Proyectos\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "js/producto.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\producto.js"
     },
     {
       "Identity": "D:\\Trabajo\\Proyectos\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\site.js",
